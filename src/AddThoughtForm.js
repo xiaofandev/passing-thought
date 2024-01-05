@@ -12,7 +12,6 @@ export function AddThoughtForm(props) {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const text = event.value;
     if (text) {
       const newThought = {
         id: generateId(),
